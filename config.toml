@@ -1,0 +1,82 @@
+baseURL = "https://manuxch.github.io"
+languageCode = "sp"
+DefaultContentLanguage = "sp"
+title = "Sitio web de Manuel Carlevar"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "Manuel Carlevaro"
+author = "Manuel Carlevaro"
+description = "Usualmente desconocido como ManuX"
+profilePicture = "images/mc.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+mainSections = ["home"]
+
+## Math settings
+[params.math]
+enable = false # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+#[[params.socialIcons]]
+#icon = "fa-linkedin"
+#title = "Linkedin"
+#url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "twitter"
+url = "https://twitter.com/mcarlevaro"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/manux.ch/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/manuxch"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:carlevaro@gmail.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Publicaciones"
+  identifier = "pubs"
+  weight = 110
+  url = "/publicaciones/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Personal"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

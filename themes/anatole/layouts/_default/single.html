@@ -1,0 +1,54 @@
+  {{ define "main" }}
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>{{ .Title }}
+        </h3>
+        {{ if eq .Type "post"}}
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">{{ .ReadingTime }}-minute read</span>
+        </div>
+        {{ end }}
+        </div>
+
+    {{ .Content }}
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+      </div>
+    </div>
+
+    {{ if eq .Type "post"}}
+    {{ if .Site.DisqusShortname -}}
+    <div id="fb_comments_container">
+      <h2>Comments</h2>
+      {{ template "_internal/disqus.html" . }}
+    </div>
+    {{- end }}       
+    {{ end }}
+        <hr>
+    {{ if .PrevInSection }}
+    <a href="{{.PrevInSection.Permalink}}"> &laquo; &nbsp;
+    {{- if isset .PrevInSection.Params "short_title" -}}
+      {{- .PrevInSection.Params.short_title -}}
+    {{- else -}}
+      {{- .PrevInSection.Title -}}
+    {{- end -}}</a>
+     {{ if .NextInSection }} | {{ end }}
+    {{ end }}
+    {{ if .NextInSection }}
+    <a href="{{.NextInSection.Permalink}}">
+    {{- if isset .NextInSection.Params "short_title" -}}
+      {{- .NextInSection.Params.short_title -}}
+    {{- else -}}
+      {{- .NextInSection.Title -}}
+    {{- end -}}&nbsp;&raquo;</a>
+    {{ end }}
+    
+</div>
+
+{{ end }}
