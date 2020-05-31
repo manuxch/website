@@ -1,10 +1,11 @@
 baseURL = "https://manuxch.github.io"
-languageCode = "sp"
-DefaultContentLanguage = "sp"
-title = "Sitio web de Manuel Carlevar"
+languageCode = "esp"
+DefaultContentLanguage = "esp"
+title = "Sitio web de Manuel Carlevaro"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
+publishDir = "manuxch.github.io"
 
 # Enable Disqus
 #disqusShortname = ""
