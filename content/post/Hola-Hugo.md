@@ -20,6 +20,7 @@ Primero exploré un tiempo [Nikola](https://getnikola.com/) pero no le pude enco
 cosmética que quería tener en el sitio. Buscando por ahí me resultó muy 
 tentadora la propuesta de [Hugo](https://gohugo.io/). En pocas horas (no tan 
 pocas) pude tener el sitio como yo quería, y además recuperar todos los posts 
-que tenía en WordPress, aunque hubo que retocar bastante el tema de las fotos.
+que tenía en WordPress, aunque hubo que retocar bastante el tema de las fotos, 
+ya que estaban alojadas en sitios que ya no existen o se modificaron.
 
-Así que ahora tengo un nuevo rincón en la web para usar como presentación.
+Así que ahora tengo un nuevo rincón en la web para usar para despuntar el vicio.
