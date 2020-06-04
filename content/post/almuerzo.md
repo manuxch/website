@@ -5,4 +5,5 @@ draft: false
 tags: ['Foto', 'Imagen', 'Temaikén']
 ---
 
-https://flic.kr/p/rYkrNL
+{{< figure src="https://live.staticflickr.com/7686/17046436916_fda1366604_b.jpg" title="Almuerzo" >}}
+
