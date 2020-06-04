@@ -27,7 +27,7 @@ Paraná, Entre Ríos (1985)
 
 - Mecánica estadística de líquidos
 
-- Sitemas complejos
+- Sistemas complejos
 
 - Optimización estocástica
 
