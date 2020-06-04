@@ -5,4 +5,5 @@ draft: false
 tags: ['Foto', 'Imagen', 'Temaikén']
 ---
 
-https://flic.kr/p/rFn4MR
+{{< figure src="https://live.staticflickr.com/7708/16854372647_52e1f2dcf7_h.jpg" title="Siesta" >}}
+
